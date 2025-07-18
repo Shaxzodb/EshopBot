@@ -110,6 +110,7 @@ async def contact_handler(message: types.Message):
                         await send_categories(message)
                         return
                     else:
+                        
                         logging.info(f"Foydalanuvchi topilmadi: chat_id={chat_id}, yangi foydalanuvchi yaratilmoqda")
                 else:
                     logging.error(f"Foydalanuvchi tekshirishda xato, status: {check_response.status}, javob: {response_text[:100]}...")
