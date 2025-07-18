@@ -6,8 +6,8 @@ name = "pypi"
 [packages]
 requests = "*"
 aiohttp = "*"
-aiogram = "*"
 python-dotenv = "*"
+aiogram = "*"
 
 [dev-packages]
 
